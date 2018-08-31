@@ -10,11 +10,26 @@
   <body>
     <p id="description">Что тут происходит</p>
     <form id="survey-form" action="index.html" method="post">
-<input type="text" name="" value="">
-<input type="text" name="" value="">
-<input type="text" name="" value="">
-    </form>
 
-<button type="button" name="button">Отправить</button>
+<label id="name" for="nm">Ваши ФИО*</label>
+ <input type="text" name="nm" placeholder="Иванов Иван Иванович">
+<label id="email" for="em">Ваш email*</label>
+ <input type="text" name="em" placeholder="example@mail.ru">
+ <label id="number" for="nb">Ваш номер телефона*</label>
+<input type="number" name="nb" placeholder="+375295671388">
+
+
+<label for="dd">Выпадающий</label>
+<select class="" name="dd">
+  <option value="">1</option>
+  <option value="">2</option>
+  <option value="">3</option>
+</select>
+
+<input type="radio" name="" value="">
+
+</form>
+
+<button type="submit" name="button">Отправить</button>
   </body>
 </html>
